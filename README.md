@@ -20,11 +20,15 @@ Prediction-of-Obesity-Levels-Based-On-Eating-Habits-and-Physical-Activites/
 │       ├── train_preprocessed.csv                      # Data latih final (1.667 baris, 19 kolom): bebas leakage, capped, Z-score scaled
 │       └── test_preprocessed.csv                       # Data uji final (417 baris, 19 kolom): ditransformasi konsisten dari data train
 │
+├── doc/
+│   └── Laporan_KNN_Obesitas_P2.md                      # Laporan komprehensif praktikum format akademik (analisis bab per bab)
+│
 ├── notebook/
 │   └── KNN_Obesitas_P2.ipynb                           # Jupyter Notebook alur lengkap pra-pemrosesan, EDA, tuning K, & evaluasi KNN
 │
 ├── output/
-│   └── Laporan_KNN_Obesitas_P2.md                      # Laporan komprehensif praktikum format akademik (analisis bab per bab)
+│   ├── knn_model.joblib                                # Model KNN terlatih (K=1) yang telah diekspor (artefak biner)
+│   └── confusion_matrix.png                            # Plot visualisasi matriks konfusi evaluasi model pada data uji
 │
 └── README.md                                           # Dokumentasi struktur proyek & panduan penggunaan
 ```
@@ -92,4 +96,4 @@ jupyter notebook KNN_Obesitas_P2.ipynb
 | Macro F1-Score | 67,7% |
 | Weighted F1-Score | 68,2% |
 
-Detail analisis teoritis, matriks konfusi, dan pembahasan mendalam mengenai bahaya interpretasi $K=1$ pada data sintetis SMOTE dapat dibaca pada [Laporan_KNN_Obesitas_P2.md](output/Laporan_KNN_Obesitas_P2.md).
+Detail analisis teoritis, matriks konfusi, dan pembahasan mendalam mengenai bahaya interpretasi $K=1$ pada data sintetis SMOTE dapat dibaca pada [Laporan_KNN_Obesitas_P2.md](doc/Laporan_KNN_Obesitas_P2.md).
