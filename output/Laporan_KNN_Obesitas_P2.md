@@ -9,8 +9,9 @@
 - **Topik/Modul:** Tugas P2 — Representasi Data & Pra-pemrosesan Data
 - **Algoritma:** *K-Nearest Neighbors* (KNN)
 - **Sumber Data:** *Estimation of obesity levels based on eating habits and physical condition* (UCI Machine Learning Repository / Kaggle)
-- **File Notebook:** `KNN_Obesitas_P2.ipynb`
-- **File Dataset:** `ObesityDataSet_raw_and_data_sinthetic.csv`
+- **File Notebook:** `notebook/KNN_Obesitas_P2.ipynb`
+- **File Dataset Mentah:** `data/raw/ObesityDataSet_raw_and_data_sinthetic.csv`
+- **File Dataset Terproses:** `data/processed/`
 
 ---
 
